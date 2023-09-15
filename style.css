@@ -1,0 +1,39 @@
+body{
+    background: #f5e298;
+}
+
+section{
+    color: #FFA3AF;
+}
+
+h1{
+    color:  #007CBE;
+}
+p{
+    color:  #FFA3AF;
+}
+h2{
+    color:  #007CBE;
+}
+h3{
+    color:  #007CBE;
+}
+footer{
+    color: #FFA3AF;
+}
+
+.hotpink-header {
+    color: #007CBE;
+}
+
+#TOP {
+    background: #00AF54;
+}
+
+a {
+    color: #FBAF00;
+}
+
+.header-link {
+    color: #FFA3AF;
+}
