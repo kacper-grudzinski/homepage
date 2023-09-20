@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body>
-
-    <header>
-        <nav>
-            <a class="header-link" href="nauka-html.html">Nauka HTML</a>
-            <br><a class="header-link" href="index.html">Strona główna</a>
-        </nav>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >Strona główna</a
+        >
+      </nav>
     </header>
 
-    <main>
-        <header id="TOP">
-            <h1><i> Eryk Galara - strona główna</i></h1>
-        </header>
-        <section>
-            <h2 class="hotpink-header">Korona rzeszów</h2>
-            <p>Został wypożyczony do trzecioligowej <b>Korony Rzeszów</b>.<a href="#pochodzenie">Przejdź do
-                    pochodzenia</a> </p>
-        </section>
+    <main class="main">
+      <header id="TOP">
+        <h1 class="main-heading main-heading--js"><strong> Eryk Galara - strona główna</strong></h1>
+      </header>
+      <section>
+        <h2 class="hotpink-header">Korona rzeszów</h2>
+        <p>
+          Został wypożyczony do trzecioligowej <b>Korony Rzeszów</b>.<a
+            href="#pochodzenie"
+            >Przejdź do pochodzenia</a
+          >
+        </p>
+      </section>
 
-        <section id="pochodzenie">
-            <h2>Skąd pochodzi?</h2>
-            ,<img src="eryk.png" alt="Zwykly Eryk">
-            <p>Z Nowego Sącza</p>
+      <section id="pochodzenie">
+        <h2>Skąd pochodzi?</h2>
+        <div class="box">
+          <img src="eryk.png" alt="Zwykly Eryk" />
+        </div>
+        <p>Z Nowego Sącza</p>
 
-            <article>
-                <h3 class="hotpink-header">Gdzie grał wcześniej?</h3>
+        <article class="favourite-heading favourite-heading--special">
+          <h3 class="hotpink-header">Gdzie on grał wcześniej?</h3>
 
-                <p>Galara trafił do Stali Rzeszów w lipcu 2020 roku i został wypożyczony do Wólczanki Wólka
-                    Pełkińska.<br>
-                    <strong>W barwach klubu partnerskiego Stali Rzeszów młody zawodnik rozegrał 33 mecze i strzelił 4
-                        gole.</strong>
-                </p>
-                <br>Jego losy możemy śledzic na stronie 
-                <a href="https://www.flashscore.pl/zawodnik/galara-eryk/WKoRtkVL/">FLASHSCORE</a>
+          <p>
+            Galara trafił do Stali Rzeszów w lipcu 2020 roku i został
+            wypożyczony do Wólczanki Wólka Pełkińska.<br />
+            <strong
+              >W barwach klubu partnerskiego Stali Rzeszów młody zawodnik
+              rozegrał 33 mecze i strzelił 4 gole.</strong
+            >
+          </p>
+          <br />Jego losy możemy śledzic na stronie
+          <a href="https://www.flashscore.pl/zawodnik/galara-eryk/WKoRtkVL/"
+            >FLASHSCORE</a
+          >
+        </article>
 
-            </article>
+        <div class="empty-box__js">
 
-        </section>
+        </div>
+      </section>
     </main>
-    <footer>
-        21-letni <em>pomocnik biało-niebieskich</em>, który dotychczas był wypożyczony do PGE FKS Stali Mielec, związał
-        się z
-        nowym klubem umową trwającą do końca obecnego sezonu. <a href="#TOP">Wróć na górę strony</a>
+    <footer class="footer">
+      21-letni <em>pomocnik biało-niebieskich</em>, który dotychczas był
+      wypożyczony do PGE FKS Stali Mielec, związał się z nowym klubem umową
+      trwającą do końca obecnego sezonu. <a href="#TOP">Wróć na górę strony</a>
     </footer>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
