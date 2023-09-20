@@ -1,16 +1,16 @@
 body {
-  background: #ffffff;
+  background: black;
 }
 
 section {
-  color: #ffa3af;
+  color: #a62dd6;
 }
 
 h1 {
-  color: #007cbe;
+  color: #047bbb;
 }
 p {
-  color: #ffa3af;
+  color: #a62dd6;
 }
 h2 {
   color: #007cbe;
@@ -19,50 +19,58 @@ h3 {
   color: #007cbe;
 }
 footer {
-  color: #ffa3af;
+  color: #a62dd6;
 }
 
 .hotpink-header {
+  background: rgb(51, 51, 51);
   color: #007cbe;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 12px;
+  border: 3px dashed rgb(91, 13, 155);
 }
 
-#TOP {
-  background: #a2ffcf;
+.hotpink-header--special {
+padding-left: 20px;
+}
+
+.main-heading {
+  background: rgb(10, 219, 90);
+  border: 4px dashed rgb(91, 13, 155);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding-left: 40px;
 }
 
 a {
-  color: #fbaf00;
+  color: rgb(156, 255, 194);
 }
 
 .header-link {
   color: #ffa3af;
 }
 
-.box {
-  background: gray;
-  width: 100px;
-  height: 100px;
-  border: 10px dashed blue;
-  border-radius: 50%;
-}
-
-.navigation {
-  background: greenyellow;
+.header-navigation {
+  background: rgb(91, 13, 155);
   height: 15px;
-  width: 250px;
+  max-width: 100%;
   padding: 40px;
   border-radius: 8px;
 }
 
-.navigation__link {
+.header-navigation__link {
   color: white;
   display: inline-block;
   margin-right: 20px;
 }
 
-.navigation__link--homepage {
-  background: yellow;
-  color: black;
+.header-navigation__link--homepage {
+  background: rgb(247, 24, 180);
+  color: #ffffff;
+  border-radius: 3px;
 }
 
 .favourite-heading {
@@ -88,12 +96,22 @@ a {
   margin: 0 auto;
 }
 
-.header {
-  max-width: 1000px;
-  margin: 0 40%;
-}
-
 .footer {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.eryk-photo {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border: 3px dashed rgb(91, 13, 155);
+  border-radius: 10px;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+.first-section {
+  position: relative;
 }

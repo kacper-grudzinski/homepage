@@ -9,61 +9,65 @@
 
   <body>
     <header class="header">
-      <nav class="navigation">
-        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
-        <a class="navigation__link navigation__link--homepage" href="index.html"
+      <nav class="header-navigation">
+        <a
+          class="header-navigation__link header-navigation__link--homepage"
+          href="index.html"
           >Strona główna</a
         >
+        <a class="header-navigation__link" href="nauka-html.html">Nauka HTML</a>
       </nav>
     </header>
 
     <main class="main">
-      <header id="TOP">
-        <h1 class="main-heading main-heading--js"><strong> Eryk Galara - strona główna</strong></h1>
+      <header class="main-header" id="TOP">
+        <h1 class="main-heading main-heading--js">
+          <strong> Eryk Galara - strona zawodnika</strong>
+        </h1>
       </header>
-      <section>
-        <h2 class="hotpink-header">Korona rzeszów</h2>
+      <section class="first-section">
+        <h2 class="hotpink-header"><strong>Informacje o zawodniku</strong></h2>
         <p>
-          Został wypożyczony do trzecioligowej <b>Korony Rzeszów</b>.<a
-            href="#pochodzenie"
-            >Przejdź do pochodzenia</a
-          >
+          <div class=eryk-photo><img src="eryk.png" alt="Zwykly Eryk" /></div>
+          Imię: Eryk
+          <br>Nazwisko: Galara
+          <br>Kraj: Polska
+          <br>Data urodzenia: 23.12.2000
+          <br>Miejsce urodzenia: Nowy Sącz
+          <br>Wzrost/waga: 175cm/65kg
+          <br>Obecny klub: Sandecja Nowy Sącz
+          <br>Pozycja: pomocnik
+          <br>Zobacz <a href="#kluby">kluby</a>, w których grał wcześniej.
+        </a>
         </p>
       </section>
 
-      <section id="pochodzenie">
-        <h2>Skąd pochodzi?</h2>
-        <div class="box">
-          <img src="eryk.png" alt="Zwykly Eryk" />
-        </div>
-        <p>Z Nowego Sącza</p>
+      <section class="second-section" id="kluby">
+        <h2 class="hotpink-header">Wcześniejsze kluby Eryka</h2>
+        <p>Eryk swoja <em>przygodę</em> z piłką zaczynał w klubie <b>Dunajec Nowy Sącz</b>, z którego następnie trafił do <b>UKS SMS Łódź</b>. Następnie przeniósł sie do stolicy, gdzie grał w barwach <b>MKS Polonia Warszawa</b>. Seniorską piłkę zaczynał w klubie <b>Siraka Tarnobrzego</b>, następnie <b>Sokół Aleksandrów Łódzki</b>. Kolejnymi klubami, w których występował Eryk są: <br><b>Stal Mielec</b> <br><b>Korona Rzeszów</b> <br><b>Czarni Połaniec</b> <br>Aż w końcu obecna <b>Sandecja Nowy Sącz</b></p>
 
-        <article class="favourite-heading favourite-heading--special">
-          <h3 class="hotpink-header">Gdzie on grał wcześniej?</h3>
+        <article class="description">
+          <h3 class="hotpink-header hotpink-header--special">
+            Statystyki młodego zawodnika
+          </h3>
 
           <p>
-            Galara trafił do Stali Rzeszów w lipcu 2020 roku i został
-            wypożyczony do Wólczanki Wólka Pełkińska.<br />
-            <strong
-              >W barwach klubu partnerskiego Stali Rzeszów młody zawodnik
-              rozegrał 33 mecze i strzelił 4 gole.</strong
-            >
-          </p>
-          <br />Jego losy możemy śledzic na stronie
+            Galara w tym sezonie rozegrał 3 mecze w barwach Sandecji Nowy Sącz, podczas których nie udalo mu się zdobyć ani bramki, ani asysty, jednak mecze może jak najbardziej zaliczyć do udanych występów.<br />
+            Młody zawodnik zresztą udowodnił już, że potrafi zarówno strzelać bramki jak i pomagać w ich zdobywaniu drużynie, gdyż w poprzednim sezonie <b>asystował 4 razy</b>, a aż <b>10 sam umieszczał piłkę w siatce przeciwników.</b>
+          
+          <br />Poczynania Eryka w obecnym sezonie możemy śledzić na wielu stronach internetowych, np. 
           <a href="https://www.flashscore.pl/zawodnik/galara-eryk/WKoRtkVL/"
             >FLASHSCORE</a
           >
+        </p>
         </article>
 
-        <div class="empty-box__js">
-
-        </div>
+        <div class="empty-box__js"></div>
       </section>
     </main>
-    <footer class="footer">
-      21-letni <em>pomocnik biało-niebieskich</em>, który dotychczas był
-      wypożyczony do PGE FKS Stali Mielec, związał się z nowym klubem umową
-      trwającą do końca obecnego sezonu. <a href="#TOP">Wróć na górę strony</a>
+    <br><footer class="footer">
+      Więcej informacji o 23 letnim pomocniku z Nowego Sącza będzie pojawiać się wkrótce. Wyczekujcie!!
+ <a href="#TOP">Wróć na górę strony</a>
     </footer>
     <script src="main.js"></script>
   </body>
