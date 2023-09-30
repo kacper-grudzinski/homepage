@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header class="header">
-      <nav class="header-navigation">
+      <nav class="header-navigation header-navigation--js">
         <a
           class="header-navigation__link header-navigation__link--homepage"
           href="index.html"
-          >Strona główna</a
+          ><b>Strona główna</b></a
         >
         <a class="header-navigation__link" href="nauka-html.html">Nauka HTML</a>
       </nav>
+      <button class="hamburger hamburger--js">MENU</button>
     </header>
 
     <main class="main">
@@ -24,27 +26,34 @@
         <h1 class="main-heading main-heading--js">
           <strong> Eryk Galara - strona zawodnika</strong>
         </h1>
+        <button class="action--js">Zmień nagłówek</button>
       </header>
       <section class="first-section">
         <h2 class="hotpink-header"><strong>Informacje o zawodniku</strong></h2>
+        <div><img class=photo src="eryk.png" alt="Zwykly Eryk" /></div>
         <p>
-          <div class=eryk-photo><img src="eryk.png" alt="Zwykly Eryk" /></div>
-          Imię: Eryk
-          <br>Nazwisko: Galara
-          <br>Kraj: Polska
-          <br>Data urodzenia: 23.12.2000
-          <br>Miejsce urodzenia: Nowy Sącz
-          <br>Wzrost/waga: 175cm/65kg
-          <br>Obecny klub: Sandecja Nowy Sącz
-          <br>Pozycja: pomocnik
-          <br>Zobacz <a href="#kluby">kluby</a>, w których grał wcześniej.
-        </a>
+          Imię: Eryk <br />Nazwisko: Galara <br />Kraj: Polska <br />Data
+          urodzenia: 23.12.2000 <br />Miejsce urodzenia: Nowy Sącz
+          <br />Wzrost/waga: 175cm/65kg <br />Obecny klub: Sandecja Nowy Sącz
+          <br />Pozycja: pomocnik <br />Zobacz <a href="#kluby">kluby</a>, w
+          których grał wcześniej.
         </p>
       </section>
 
       <section class="second-section" id="kluby">
         <h2 class="hotpink-header">Wcześniejsze kluby Eryka</h2>
-        <p>Eryk swoja <em>przygodę</em> z piłką zaczynał w klubie <b>Dunajec Nowy Sącz</b>, z którego następnie trafił do <b>UKS SMS Łódź</b>. Następnie przeniósł sie do stolicy, gdzie grał w barwach <b>MKS Polonia Warszawa</b>. Seniorską piłkę zaczynał w klubie <b>Siraka Tarnobrzego</b>, następnie <b>Sokół Aleksandrów Łódzki</b>. Kolejnymi klubami, w których występował Eryk są: <br><b>Stal Mielec</b> <br><b>Korona Rzeszów</b> <br><b>Czarni Połaniec</b> <br>Aż w końcu obecna <b>Sandecja Nowy Sącz</b></p>
+        <p>
+          Eryk swoja <em>przygodę</em> z piłką zaczynał w klubie
+          <b>Dunajec Nowy Sącz</b>, z którego następnie trafił do
+          <b>UKS SMS Łódź</b>. Następnie przeniósł sie do stolicy, gdzie grał w
+          barwach <b>MKS Polonia Warszawa</b>. Seniorską piłkę zaczynał w klubie
+          <b>Siarka Tarnobrzeg</b>, następnie <b>Sokół Aleksandrów Łódzki</b>.
+          Kolejnymi klubami, w których występował Eryk są: <br /><b
+            >Stal Mielec</b
+          >
+          <br /><b>Korona Rzeszów</b> <br /><b>Czarni Połaniec</b> <br />Aż w
+          końcu obecna <b>Sandecja Nowy Sącz</b>
+        </p>
 
         <article class="description">
           <h3 class="hotpink-header hotpink-header--special">
@@ -52,22 +61,90 @@
           </h3>
 
           <p>
-            Galara w tym sezonie rozegrał 3 mecze w barwach Sandecji Nowy Sącz, podczas których nie udalo mu się zdobyć ani bramki, ani asysty, jednak mecze może jak najbardziej zaliczyć do udanych występów.<br />
-            Młody zawodnik zresztą udowodnił już, że potrafi zarówno strzelać bramki jak i pomagać w ich zdobywaniu drużynie, gdyż w poprzednim sezonie <b>asystował 4 razy</b>, a aż <b>10 sam umieszczał piłkę w siatce przeciwników.</b>
-          
-          <br />Poczynania Eryka w obecnym sezonie możemy śledzić na wielu stronach internetowych, np. 
-          <a href="https://www.flashscore.pl/zawodnik/galara-eryk/WKoRtkVL/"
-            >FLASHSCORE</a
-          >
-        </p>
+            Galara w tym sezonie rozegrał 3 mecze w barwach Sandecji Nowy Sącz,
+            podczas których nie udalo mu się zdobyć ani bramki, ani asysty,
+            jednak mecze może jak najbardziej zaliczyć do udanych występów.<br />
+            Młody zawodnik zresztą udowodnił już, że potrafi zarówno strzelać
+            bramki jak i pomagać w ich zdobywaniu drużynie, gdyż w poprzednim
+            sezonie <b>asystował 4 razy</b>, a aż
+            <b>10 sam umieszczał piłkę w siatce przeciwników.</b>
+
+            <br />Poczynania Eryka w obecnym sezonie możemy śledzić na wielu
+            stronach internetowych, np.
+            <a href="https://www.flashscore.pl/zawodnik/galara-eryk/WKoRtkVL/"
+              >FLASHSCORE</a
+            >
+          </p>
+          <section>
+            <h4>Lista potencjalnych klubów:</h4>
+            <ul class="list">
+              <li class="list__item">Real Madryt</li>
+              <li class="list__item">FC Barcelona</li>
+              <li class="list__item">Manchester City</li>
+              <li class="list__item">Arsenal Londyn</li>
+              <li class="list__item">
+                Polska liga:
+                <ol>
+                  <li>Legia Warszawa</li>
+                  <li>Śląsk Wrocław</li>
+                  <li>Pogoń Szczecin</li>
+                </ol>
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h4>Kroki do zagrania w tych klubach:</h4>
+            <ol>
+              <li>Ciężka praca</li>
+              <li>Wiara w siebie</li>
+              <li>Trochę szczęścia</li>
+              <li>Znalezienie dobrego menagera</li>
+            </ol>
+            <h4>Sponsorzy</h4>
+            <dl>
+              <dt>Adidas</dt>
+              <dd>Jeden z zainteresowanych Erykiem sponsorów</dd>
+
+              <dt>Szubryt</dt>
+              <dd>Obecny sponsor Eryka</dd>
+            </dl>
+          </section>
+          <section>
+            <h4>Rozpiska statystyk</h4>
+            <table class="table">
+              <caption>
+                Sezon 2022/2023
+              </caption>
+              <thead>
+                <tr>
+                  <th>Rozegrane mecze</th>
+                  <th>Bramki</th>
+                  <th>Astysty</th>
+                  <th>Żółte kartki</th>
+                  <th>Czerwone kartki</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>31</td>
+                  <td>10</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
         </article>
 
         <div class="empty-box__js"></div>
       </section>
     </main>
-    <br><footer class="footer">
-      Więcej informacji o 23 letnim pomocniku z Nowego Sącza będzie pojawiać się wkrótce. Wyczekujcie!!
- <a href="#TOP">Wróć na górę strony</a>
+    <br />
+    <footer class="footer">
+      Więcej informacji o 23 letnim pomocniku z Nowego Sącza będzie pojawiać się
+      wkrótce. Wyczekujcie!!
+      <a href="#TOP">Wróć na górę strony</a>
     </footer>
     <script src="main.js"></script>
   </body>
