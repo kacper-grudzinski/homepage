@@ -1,0 +1,178 @@
+@import "modules/hotpink-header.scss";
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: linear-gradient(
+    159deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 3, 51, 1) 33%,
+    rgba(0, 0, 0, 1) 57%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  color: #a62dd6;
+}
+
+h1 {
+  color: #047bbb;
+}
+p {
+  color: #a62dd6;
+}
+h2 {
+  color: #007cbe;
+}
+h3 {
+  color: #007cbe;
+}
+footer {
+  color: #a62dd6;
+}
+.stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-heading {
+  background: rgb(10, 219, 90);
+  border: 4px dashed rgb(91, 13, 155);
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding-left: 140px;
+  font-family: 'Alumni Sans Inline One', sans-serif;
+  font-weight: 100;
+}
+
+a {
+  color: rgb(156, 255, 194);
+}
+
+.header-link {
+  color: #ffa3af;
+}
+
+.header {
+  background: blue;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-navigation {
+  padding: 16px;
+  display: none;
+  &__link {
+    color: white;
+    display: block;
+    margin: 0 0 16px;
+  }
+  &__link--homepage {
+    color: greenyellow;
+  }
+}
+
+.header-navigation--open {
+  display: block;
+}
+
+.favourite-heading {
+  padding: 16px;
+  border: 1px grey solid;
+  &__description {
+    color: #92140c;
+  }
+}
+
+.favourite-heading--special {
+  border: 1px black dashed;
+  border-radius: 8px;
+}
+
+.favourite-heading__title {
+  color: #21a179;
+}
+
+.main {
+  max-width: 1000px;
+  margin: 60px auto 0;
+}
+
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  border: 3px dashed rgb(91, 13, 155);
+  border-radius: 10px;
+}
+
+.first-section {
+  position: relative;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+.table {
+  width: 100%;
+  border: 3px solid rgb(91, 13, 155);
+  text-align: center;
+}
+
+.klasa-z-js {
+  background: #a62dd6;
+}
+
+.hamburger {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .header-navigation {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(91, 13, 155);
+    height: 15px;
+    max-width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 5px 5px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header {
+    background: none;
+    position: static;
+  }
+}
